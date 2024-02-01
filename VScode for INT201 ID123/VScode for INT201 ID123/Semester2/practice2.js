@@ -59,3 +59,46 @@ class Book {
    
    console.log(myLibrary.getBooksByGenre("Sci-Fi"));
    console.log(myLibrary.getTotalPagesByGenre("Sci-Fi"));
+
+
+
+
+// class elevator{
+//     constructor(maxfloor,minfloor,currentFloor){
+//         this.currentFloor = currentFloor || 0
+//         this.maxfloor = maxfloor
+//         this.minfloor = minfloor
+//     }
+
+//     displayFloor(){
+//         return this.currentFloor
+//     }
+
+//     goToFloor(floor){
+//         this.currentFloor = floor
+
+//     }
+
+//     goUp(){
+//         if(this.currentFloor < this.maxfloor){
+//             this.currentFloor++
+//         }
+//     }
+
+//     goDown(){
+//         if(this.currentFloor > this.minfloor){
+//             this.currentFloor--
+//         }
+
+//     }
+
+// }
+
+// const elevator1 = new elevator(10,-5,2)
+
+// console.log(elevator1)
+// elevator1.goToFloor(5)
+
+// console.log("-----")
+
+// console.log(elevator1.displayFloor())
